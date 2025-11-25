@@ -16,13 +16,14 @@ El mundo del juego muestra cómo la contaminación vuelve el planeta un lugar cr
 
 ---
 
-## 📂 Estructura del Proyecto
-│── BarraVida.cs → Control de la barra de vida
-│── BotellaScript.cs → Botellas recolectables que dan vida
-│── PlayerController2D.cs → Movimiento del personaje
-│── Temporizador.cs → Sistema de tiempo y fin de nivel
-│── SeguirCamaraJugador.cs → Cámara que sigue al jugador
-│── MonstruoHuye.cs → Enemigos que reaccionan al jugador
+## 📂 Estructura
+- `Scripts/` - Contiene todos los scripts de C# del juego
+  - `BarraVida.cs` - Gestiona la barra de vida del jugador
+  - `BotellaScript.cs` - Lógica de las botellas recolectables
+  - `PlayerController2D.cs` - Controles del personaje
+  - `Temporizador.cs` - Sistema de tiempo y condiciones de victoria
+  - `SeguirCamaraJugador.cs` - Sistema de cámara que sigue al jugador
+  - `MonstruoHuye.cs` - Sistema de enemigos que huyen del jugador
 
 ---
 
